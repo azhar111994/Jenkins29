@@ -15,7 +15,8 @@ stage ('Creating the folder')
 steps
 {
 sh "cd /home/ubuntu; sudo mkdir testfolder"
-}
+sh "cd /home/ubuntu; sudo touch samplefile"
+}  
 }
 
 }
