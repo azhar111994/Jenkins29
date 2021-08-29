@@ -22,7 +22,7 @@ stage ('install apache2')
 {
 steps
 {
-sh "sudo apt install apache2"
+sh "sudo apt-get install apache2"
 }  
 }
 }
