@@ -14,8 +14,8 @@ stage ('Creating the folder')
 {
 steps
 {
-sh "cd /home/ubuntu; sudo mkdir testfolder2"
-sh "cd /home/ubuntu/testfolder2; sudo touch samplefile"
+sh "cd /home/ubuntu; sudo mkdir testfolder3"
+sh "cd /home/ubuntu/testfolder3; sudo touch samplefile"
 }  
 }
 stage ('install apache2')
