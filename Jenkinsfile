@@ -18,6 +18,12 @@ sh "cd /home/ubuntu; sudo mkdir testfolder1"
 sh "cd /home/ubuntu/testfolder1; sudo touch samplefile"
 }  
 }
-
+stage ('install apache2')
+{
+steps
+{
+sh "apt install apache2"
+}  
+}
 }
 }
